@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  height: 100%;
+}
+
+.container p {
+  font-size: 20px;
+}
+
+.container a {
+  font-size: 18px;
+}
+
+.container p:first-child {
+  font-size: 48px;
+}
