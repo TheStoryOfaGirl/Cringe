@@ -1,0 +1,16 @@
+.textarea {
+  resize: none;
+  width: max(200px,(35vw + max(0.75rem, 0.8vw)*8.7));
+  height: 18vh;
+  padding: 1em;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.3);
+  font-size: max(16px, 1vw);
+}
+
+textarea:focus {
+  resize: none;
+  outline: none;
+  border:1px solid rgba(209, 27, 254, 0.72);
+}

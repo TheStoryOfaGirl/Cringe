@@ -1,0 +1,22 @@
+.container {
+  width: 100vw;
+  padding:  clamp(0.75rem, 1vmax, 2rem) 2vmax;
+  box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.3vw;
+}
+
+.img {
+  width: clamp(1rem, 3vw, 4rem);
+  height: clamp(1rem, 3vw, 4rem);
+}
+
+.logo_name {
+  font-size: clamp(1rem, 2vw, 4rem);
+  font-weight: 700;
+}

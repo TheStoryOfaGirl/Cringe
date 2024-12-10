@@ -1,0 +1,64 @@
+.container {
+  padding-inline: 5vw;
+  margin-bottom: 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container h1 {
+  margin-top: 17vh;
+  font-size: max(20px, 2vw);
+  color: rgba(77, 77, 77, 1);
+}
+
+.joke {
+  max-width: 75vw;
+}
+
+.joke p {
+  margin-top: 5vh;
+  margin-bottom: 10vh;
+  font-size: max(24px, 2.2vw);
+  font-weight: 700;
+  color: rgba(109, 109, 109, 1);
+  text-align: center;
+}
+
+.block_context {
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2px;
+}
+
+.block_context p {
+  font-weight: 500;
+  font-size: max(0.75rem, 1vw);
+  color: rgba(77, 77, 77, 1);
+}
+
+.container_context {
+  margin-bottom: 5vh;
+  text-align: center;
+}
+
+.container_context p {
+  margin-bottom: 5vh;
+  font-size: max(20px, 1.8vw);
+  color: rgba(77, 77, 77, 1);
+}
+
+.hidden_container {
+  height: 32px;
+}
+
+.loader {
+  margin-top: 5vh;
+  margin-bottom: 10vh;
+}
+
+
+

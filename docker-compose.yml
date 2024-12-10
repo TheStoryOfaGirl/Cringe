@@ -1,0 +1,6 @@
+services:
+  cringe:
+    build: .
+    restart: on-failure
+    ports:
+      - "80:80"

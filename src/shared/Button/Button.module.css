@@ -1,0 +1,21 @@
+.primary {
+  padding: 1em 17.5vw;
+  background-color: rgba(209, 27, 254, 0.72);
+  color: rgba(255, 255, 255, 1);
+  border-radius: 4px;
+  font-size: max(0.75rem, 0.8vw);
+}
+
+.primary:hover {
+  background-color: rgba(180, 23, 219, 0.72);
+ 
+}
+
+.primary:active {
+  transform: translate(0,2px);
+}
+
+.secondary {
+  color: rgba(0, 0, 0, 1);
+  font-size: max(0.75rem, 1vw);
+}
